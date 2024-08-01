@@ -149,7 +149,7 @@ const MeetingTypeList = () => {
           buttonText="Copy Meeting Link"
         />
       )}
-
+      {/* saale isse theek kriyohvush */}
       <MeetingModal
         isOpen={meetingState === 'isJoiningMeeting'}
         onClose={() => setMeetingState(undefined)}
